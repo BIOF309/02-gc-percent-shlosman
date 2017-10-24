@@ -1,0 +1,42 @@
+
+# coding: utf-8
+
+# In[1]:
+
+seq= 'GTGACAAAGACATAATGGATCCAAACACTGTGTCAAGCTTTCAGGTAGATTGCTTTCTTTGGCATGTCCGCAAACGAGTTGCAGACCAAGAACTAGGTGA'
+
+
+# In[4]:
+
+seqC = seq.count('C') #Assign a name to the number of C's
+
+
+# In[5]:
+
+seqG = seq.count('G') #Similarly for G
+
+
+# In[6]:
+
+print(seqC) #Check that the function worked
+
+
+# In[7]:
+
+print(seqG) #Both look good!
+
+
+# In[10]:
+
+len(seq) #Use length function to figure out how many characters, i.e. nucleotides, there are 
+
+
+# In[11]:
+
+print((int(seqC)+int(seqG))*100/int(len(seq))) #Yeah!
+
+
+# In[ ]:
+
+
+
